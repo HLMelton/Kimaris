@@ -2,7 +2,7 @@ import self as self
 import yfinance as yf
 
 class Stock:
-    def __init__(stock, balance, value):
+    def __init__(self, balance, value, symbol):
         ##Need to fix some of the variables below and fix some of the integrations with the price fetcher.
         self.balance = balance
         self.value = value
@@ -22,6 +22,9 @@ class Stock:
 
 
 
-Apple = Stock
-Apple.potshares(15, 5)
 
+
+class WatchList:
+    def __init__(self):
+        pass
+    pass
